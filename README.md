@@ -61,7 +61,7 @@ The code is relatively easily modified to work with newer version of `transforme
 - Simulatability of a set of rationales is computed as IR-->O performance minus I-->O performance using the above "inference on a previously-trained model" command and specifying the set of rationales to pass in using `--predictions_model_file`.
 
 ## Baseline (I-->O) Models
-- same as I-->RO model but with addition of `--label_only` flag.
+- same as I-->OR model but with addition of `--label_only` flag.
 
 ## Injecting Noise at Inference Time
 - in progress
