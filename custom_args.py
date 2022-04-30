@@ -213,7 +213,7 @@ def parse_wt5_label_only(f, generations_list, dataset, task, eos_token):
             else:
                 # split on EOS token or extra id token
                 pred_l = (
-                    line.split(tokenizer.eos_token)[0].split("<extra_id")[0].strip()
+                    line.split(eos_token)[0].split("<extra_id")[0].strip()
                 )
 
             if task == "cos_e":
